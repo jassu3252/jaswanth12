@@ -1,115 +1,69 @@
-/* Reset some default styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jaswanth's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Jaswanth's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-/* Basic styling */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
-}
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I am Jaswanth, a technical trainer and Data Science expert certified by IBM. I have taught in over 60+ colleges, helping students excel in data science and related technologies.</p>
+    </div>
+  </section>
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Data Science & Machine Learning</li>
+        <li>Python Programming</li>
+        <li>SQL & Data Visualization</li>
+        <li>Deep Learning & AI</li>
+        <li>Teaching & Training</li>
+      </ul>
+    </div>
+  </section>
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-}
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <p>I have taught in over 60 colleges, including hands-on training in Data Science. I hold an Expert certification from IBM, specializing in various Data Science concepts and technologies.</p>
+    </div>
+  </section>
 
-header h1 {
-  text-align: center;
-  font-size: 2.5em;
-}
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>If you'd like to collaborate or have any questions, feel free to reach out to me:</p>
+      <ul>
+        <li>Email: <a href="mailto:jaswanth@example.com">jaswanth@example.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/jaswanth">jaswanth</a></li>
+      </ul>
+    </div>
+  </section>
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-top: 10px;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1em;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-section {
-  padding: 40px 0;
-  background-color: #fff;
-  margin-bottom: 20px;
-}
-
-section h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-section p, section ul {
-  font-size: 1.2em;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-ul li a {
-  color: #333;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-}
-
-footer p {
-  font-size: 1em;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .container {
-    width: 90%;
-  }
-
-  header h1 {
-    font-size: 2em;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav ul li {
-    margin-bottom: 10px;
-  }
-}
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Jaswanth | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
